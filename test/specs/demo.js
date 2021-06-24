@@ -1,11 +1,21 @@
 const assert = require('assert')
 const _ = require('lodash')
 
+const { remote } = require('webdriverio');
+
+
 describe('Test Login Page Check Title', () => {
     it('check title login page is WEB-Transer', async () => {
 
-        await browser.url('https://laravel.com/')
+        const browser = await remote({
+            capabilities: {
+                'goog:chromeOptions': {
+                    args: ["--headless", "user-agent=...","--disable-gpu","--window-size=1366,720"]
+                }
+            }
+        })
 
+        await browser.url('https://laravel.com/')
 
         const product = await $("body > div.max-w-screen-xl.px-8.mx-auto > ul")
         const services = await product.$$('li')
@@ -15,7 +25,7 @@ describe('Test Login Page Check Title', () => {
         const findName = 'Socialite'
         let listServices = []
 
-        for(i = 0; i < services.length; i++) {
+        for(let i = 0; i < services.length; i++) {
             const name = await (await services[i].$('.text-2xl')).getText()
             const desc = await (await services[i].$('.text-gray-600')).getText()
 
@@ -35,6 +45,8 @@ describe('Test Login Page Check Title', () => {
         } else {
             assert.strictEqual(result.name, findName)
         }
+
+
         await browser.saveScreenshot('./login.png')
     })
 })

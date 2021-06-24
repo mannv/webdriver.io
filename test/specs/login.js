@@ -2,6 +2,10 @@ const assert = require('assert')
 const _ = require('lodash')
 const loginPage = require('../clpages/login.page')
 describe('Test Login Page Check Title', () => {
+    before(() => {
+        console.log('before')
+    })
+
     it('check title login page is WEB-Transer', async () => {
         // await browser.url('http://192.84.10.57/admin/login')
         // const title = await browser.getTitle()
