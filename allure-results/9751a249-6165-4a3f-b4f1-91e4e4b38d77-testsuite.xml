@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624613586062' stop='1624613605424'>
+    <name>Trang chu</name>
+    <title>Trang chu</title>
+    <test-cases>
+        <test-case start='1624613586063' status='broken' stop='1624613605407'>
+            <name>kiem tra tieu de trang</name>
+            <title>kiem tra tieu de trang</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>socket hang up</message>
+                <stack-trace>RequestError: socket hang up
+                    at ClientRequest.&lt;anonymous> (/home/mannv/www/wdio/node_modules/got/dist/source/core/index.js:956:111)
+                    at Object.onceWrapper (node:events:476:26)
+                    at ClientRequest.emit (node:events:381:22)
+                    at ClientRequest.emit (node:domain:470:12)
+                    at ClientRequest.origin.emit (/home/mannv/www/wdio/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)
+                    at Socket.socketOnEnd (node:_http_client:496:9)
+                    at Socket.emit (node:events:381:22)
+                    at Socket.emit (node:domain:470:12)
+                    at endReadableNT (node:internal/streams/readable:1307:12)
+                    at connResetException (node:internal/errors:642:14)
+                    at Socket.socketOnEnd (node:_http_client:496:23)
+                    at Socket.emit (node:events:381:22)
+                    at Socket.emit (node:domain:470:12)
+                    at endReadableNT (node:internal/streams/readable:1307:12)
+                    at processTicksAndRejections (node:internal/process/task_queues:81:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1624613605413' status='broken' stop='1624613605423'>
+            <name>kiem tra tieu de bai viet noi bat</name>
+            <title>kiem tra tieu de bai viet noi bat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>connect ECONNREFUSED 127.0.0.1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED 127.0.0.1:9515
+                    at ClientRequest.&lt;anonymous> (/home/mannv/www/wdio/node_modules/got/dist/source/core/index.js:956:111)
+                    at Object.onceWrapper (node:events:476:26)
+                    at ClientRequest.emit (node:events:381:22)
+                    at ClientRequest.emit (node:domain:470:12)
+                    at ClientRequest.origin.emit (/home/mannv/www/wdio/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)
+                    at Socket.socketErrorListener (node:_http_client:472:9)
+                    at Socket.emit (node:events:369:20)
+                    at Socket.emit (node:domain:470:12)
+                    at emitErrorNT (node:internal/streams/destroy:188:8)
+                    at emitErrorCloseNT (node:internal/streams/destroy:153:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

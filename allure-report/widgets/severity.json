@@ -1,0 +1,41 @@
+[ {
+  "uid" : "a1e541e1d00c7eb4",
+  "name" : "kiem tra tieu de bai viet noi bat",
+  "time" : {
+    "start" : 1624613711102,
+    "stop" : 1624613711162,
+    "duration" : 60
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "917149668f4d7773",
+  "name" : "kiem tra tieu de trang",
+  "time" : {
+    "start" : 1624613712627,
+    "stop" : 1624613714898,
+    "duration" : 2271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c5494ada26f6fec",
+  "name" : "kiem tra tieu de trang",
+  "time" : {
+    "start" : 1624613708691,
+    "stop" : 1624613711101,
+    "duration" : 2410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fbb84d1fc6f7d97",
+  "name" : "kiem tra tieu de danh muc",
+  "time" : {
+    "start" : 1624613714898,
+    "stop" : 1624613714933,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

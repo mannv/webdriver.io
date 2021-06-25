@@ -1,0 +1,14 @@
+version: '3.9'  # optional since v1.27.0
+
+services:
+  proxy:
+    image: frankescobar/allure-docker-service
+    ports:
+      - "5050:5050"
+    volumes:
+      - ./allure-results:/app/allure-results
+      - ./allure-reports:/app/default-reports
+      - ./proxy/config.conf:/etc/nginx/conf.d/custom-config.conf
+    environment:
+      - CHECK_RESULTS_EVERY_SECONDS=3
+      - KEEP_HISTORY=1

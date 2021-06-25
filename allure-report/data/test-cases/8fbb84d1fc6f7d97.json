@@ -1,0 +1,83 @@
+{
+  "uid" : "8fbb84d1fc6f7d97",
+  "name" : "kiem tra tieu de danh muc",
+  "fullName" : "Danh muc.kiem tra tieu de danh muc",
+  "historyId" : "3373542317b5277a92af4cea925faf67",
+  "time" : {
+    "start" : 1624613714898,
+    "stop" : 1624613714933,
+    "duration" : 35
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Danh muc"
+  }, {
+    "name" : "testClass",
+    "value" : "Danh muc"
+  }, {
+    "name" : "testMethod",
+    "value" : "kiem tra tieu de danh muc"
+  }, {
+    "name" : "package",
+    "value" : "Danh muc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "33d0586272ad91fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624613637523,
+        "stop" : 1624613637561,
+        "duration" : 38
+      }
+    }, {
+      "uid" : "450c4d6868a6d309",
+      "status" : "broken",
+      "statusDetails" : "connect ECONNREFUSED 127.0.0.1:9515",
+      "time" : {
+        "start" : 1624613605406,
+        "stop" : 1624613605418,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "7a64b9d2049cff7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624613443999,
+        "stop" : 1624613444033,
+        "duration" : 34
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8fbb84d1fc6f7d97.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

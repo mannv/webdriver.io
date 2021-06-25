@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 25 16:35:14 ICT 2021","Fri Jun 25 16:35:14 ICT 2021","35","","Danh muc","","Danh muc","kiem tra tieu de danh muc","kiem tra tieu de danh muc",""
+"passed","Fri Jun 25 16:35:08 ICT 2021","Fri Jun 25 16:35:11 ICT 2021","2410","","Trang chu","","Trang chu","kiem tra tieu de trang","kiem tra tieu de trang",""
+"passed","Fri Jun 25 16:35:12 ICT 2021","Fri Jun 25 16:35:14 ICT 2021","2271","","Danh muc","","Danh muc","kiem tra tieu de trang","kiem tra tieu de trang",""
+"failed","Fri Jun 25 16:35:11 ICT 2021","Fri Jun 25 16:35:11 ICT 2021","60","","Trang chu","","Trang chu","kiem tra tieu de bai viet noi bat","kiem tra tieu de bai viet noi bat",""

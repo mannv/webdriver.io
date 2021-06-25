@@ -1,0 +1,58 @@
+{
+  "uid" : "450c4d6868a6d309",
+  "name" : "kiem tra tieu de danh muc",
+  "fullName" : "Danh muc.kiem tra tieu de danh muc",
+  "historyId" : "3373542317b5277a92af4cea925faf67",
+  "time" : {
+    "start" : 1624613605406,
+    "stop" : 1624613605418,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "connect ECONNREFUSED 127.0.0.1:9515",
+  "statusTrace" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (/home/mannv/www/wdio/node_modules/got/dist/source/core/index.js:956:111)\n                    at Object.onceWrapper (node:events:476:26)\n                    at ClientRequest.emit (node:events:381:22)\n                    at ClientRequest.emit (node:domain:470:12)\n                    at ClientRequest.origin.emit (/home/mannv/www/wdio/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketErrorListener (node:_http_client:472:9)\n                    at Socket.emit (node:events:369:20)\n                    at Socket.emit (node:domain:470:12)\n                    at emitErrorNT (node:internal/streams/destroy:188:8)\n                    at emitErrorCloseNT (node:internal/streams/destroy:153:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Danh muc"
+  }, {
+    "name" : "testClass",
+    "value" : "Danh muc"
+  }, {
+    "name" : "testMethod",
+    "value" : "kiem tra tieu de danh muc"
+  }, {
+    "name" : "package",
+    "value" : "Danh muc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "450c4d6868a6d309.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

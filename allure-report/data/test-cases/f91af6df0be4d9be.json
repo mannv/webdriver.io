@@ -1,0 +1,56 @@
+{
+  "uid" : "f91af6df0be4d9be",
+  "name" : "kiem tra tieu de trang",
+  "fullName" : "Danh muc.kiem tra tieu de trang",
+  "historyId" : "efb2ae1fd791b9fc88854dbf3f3bd029",
+  "time" : {
+    "start" : 1624613437321,
+    "stop" : 1624613443999,
+    "duration" : 6678
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Danh muc"
+  }, {
+    "name" : "testClass",
+    "value" : "Danh muc"
+  }, {
+    "name" : "testMethod",
+    "value" : "kiem tra tieu de trang"
+  }, {
+    "name" : "package",
+    "value" : "Danh muc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f91af6df0be4d9be.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

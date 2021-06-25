@@ -1,0 +1,65 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Trang chu",
+    "children" : [ {
+      "name" : "kiem tra tieu de trang",
+      "uid" : "5c5494ada26f6fec",
+      "parentUid" : "14aaac4f1e2fe86b5b1b297dabb63011",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624613708691,
+        "stop" : 1624613711101,
+        "duration" : 2410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "kiem tra tieu de bai viet noi bat",
+      "uid" : "a1e541e1d00c7eb4",
+      "parentUid" : "14aaac4f1e2fe86b5b1b297dabb63011",
+      "status" : "failed",
+      "time" : {
+        "start" : 1624613711102,
+        "stop" : 1624613711162,
+        "duration" : 60
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    } ],
+    "uid" : "14aaac4f1e2fe86b5b1b297dabb63011"
+  }, {
+    "name" : "Danh muc",
+    "children" : [ {
+      "name" : "kiem tra tieu de trang",
+      "uid" : "917149668f4d7773",
+      "parentUid" : "58064b5de77c19665011b384141b40c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624613712627,
+        "stop" : 1624613714898,
+        "duration" : 2271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    }, {
+      "name" : "kiem tra tieu de danh muc",
+      "uid" : "8fbb84d1fc6f7d97",
+      "parentUid" : "58064b5de77c19665011b384141b40c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624613714898,
+        "stop" : 1624613714933,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.114" ]
+    } ],
+    "uid" : "58064b5de77c19665011b384141b40c3"
+  } ]
+}

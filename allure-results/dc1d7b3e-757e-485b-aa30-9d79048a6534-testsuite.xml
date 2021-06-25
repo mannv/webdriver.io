@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624613712626' stop='1624613714933'>
+    <name>Danh muc</name>
+    <title>Danh muc</title>
+    <test-cases>
+        <test-case start='1624613712627' status='passed' stop='1624613714898'>
+            <name>kiem tra tieu de trang</name>
+            <title>kiem tra tieu de trang</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624613714898' status='passed' stop='1624613714933'>
+            <name>kiem tra tieu de danh muc</name>
+            <title>kiem tra tieu de danh muc</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.114'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

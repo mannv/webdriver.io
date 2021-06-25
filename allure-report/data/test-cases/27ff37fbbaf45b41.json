@@ -1,0 +1,58 @@
+{
+  "uid" : "27ff37fbbaf45b41",
+  "name" : "kiem tra tieu de trang",
+  "fullName" : "Danh muc.kiem tra tieu de trang",
+  "historyId" : "efb2ae1fd791b9fc88854dbf3f3bd029",
+  "time" : {
+    "start" : 1624613586052,
+    "stop" : 1624613605403,
+    "duration" : 19351
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "socket hang up",
+  "statusTrace" : "RequestError: socket hang up\n                    at ClientRequest.<anonymous> (/home/mannv/www/wdio/node_modules/got/dist/source/core/index.js:956:111)\n                    at Object.onceWrapper (node:events:476:26)\n                    at ClientRequest.emit (node:events:381:22)\n                    at ClientRequest.emit (node:domain:470:12)\n                    at ClientRequest.origin.emit (/home/mannv/www/wdio/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketOnEnd (node:_http_client:496:9)\n                    at Socket.emit (node:events:381:22)\n                    at Socket.emit (node:domain:470:12)\n                    at endReadableNT (node:internal/streams/readable:1307:12)\n                    at connResetException (node:internal/errors:642:14)\n                    at Socket.socketOnEnd (node:_http_client:496:23)\n                    at Socket.emit (node:events:381:22)\n                    at Socket.emit (node:domain:470:12)\n                    at endReadableNT (node:internal/streams/readable:1307:12)\n                    at processTicksAndRejections (node:internal/process/task_queues:81:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Danh muc"
+  }, {
+    "name" : "testClass",
+    "value" : "Danh muc"
+  }, {
+    "name" : "testMethod",
+    "value" : "kiem tra tieu de trang"
+  }, {
+    "name" : "package",
+    "value" : "Danh muc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27ff37fbbaf45b41.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}

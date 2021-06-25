@@ -1,0 +1,56 @@
+{
+  "uid" : "71948ed505566b4d",
+  "name" : "kiem tra tieu de trang",
+  "fullName" : "Trang chu.kiem tra tieu de trang",
+  "historyId" : "8f0fd1e3e4a7034f59e7f107cdbf5a10",
+  "time" : {
+    "start" : 1624613437230,
+    "stop" : 1624613442369,
+    "duration" : 5139
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Trang chu"
+  }, {
+    "name" : "testClass",
+    "value" : "Trang chu"
+  }, {
+    "name" : "testMethod",
+    "value" : "kiem tra tieu de trang"
+  }, {
+    "name" : "package",
+    "value" : "Trang chu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.114"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71948ed505566b4d.json",
+  "parameterValues" : [ "chrome-91.0.4472.114" ]
+}
